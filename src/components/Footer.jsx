@@ -1,16 +1,26 @@
-import { Container,Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Navbar,Container,Nav } from "react-bootstrap";
+
 
 export default function Footer () {
 
     return (
 
-   <Container className="text-bg-success">
-     <Row>
-        <Col>
-               <h2>Email-me if you Busted a new Place ------Email</h2>
-        </Col>
-     </Row>   
-   </Container>
+      <Navbar>
+      <Container className="text-bg-success">
+
+    
+      <p>Let us know if you busted a new spot</p>
+
+        <Nav>
+          <Nav.Item>
+              <Nav.Link as={Link} to="/email">Email</Nav.Link>
+          </Nav.Item>
+        </Nav>
+
+      </Container>
+   </Navbar>  
+       
 
     )
 }
