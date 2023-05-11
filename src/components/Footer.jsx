@@ -8,22 +8,21 @@ export default function Footer () {
     return (
 
       <Navbar>
-      <Container className="text-bg-success sm-12">
-
-    <Row>
-      <Col>
-      <p>Let us know if you busted a new spot</p>
-
+      <Container className="text-bg-success">
+       <Row>
+        <p>Let us know if you busted a new spot</p>
         <Nav>
           <Nav.Item>
-              <Nav.Link as={Link} to="/email">Email</Nav.Link>
+              <Nav.Link as={Link} to="/email">Email <i class="bi bi-mailbox"></i></Nav.Link>
           </Nav.Item>
         </Nav>
-        </Col>
-    </Row>
+       </Row>
       </Container>
    </Navbar>  
+       )
+   }
        
+     
 
-    )
-}
+    
+      
