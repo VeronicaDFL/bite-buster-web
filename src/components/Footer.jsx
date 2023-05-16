@@ -13,7 +13,7 @@ export default function Footer () {
         <p>Let us know if you busted a new spot</p>
         <Nav>
           <Nav.Item>
-              <Nav.Link as={Link} to="/email">Email <i class="bi bi-mailbox"></i></Nav.Link>
+              <Nav.Link as={Link} to="/email">Email <i className="bi bi-mailbox"></i></Nav.Link>
           </Nav.Item>
         </Nav>
        </Row>

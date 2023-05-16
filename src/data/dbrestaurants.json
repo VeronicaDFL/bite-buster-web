@@ -1,0 +1,231 @@
+[
+  {
+      "_id": 1,
+      "name":"TAP 42",      
+
+      "day": "monday",      
+      "price": "$7 (4pm to 11pm)",
+      "special": "PROHIBITION BURGER",    
+
+      "address": "1411 South Andrews Ave Fort Lauderdale, FL 33316",
+      "phone": "954-463-4900",
+      "website": "https://tap42.com/fort-lauderdale/",
+      
+      "image":""
+  },
+
+{
+    "_id": 2,
+
+    "price": "$3.99 ",
+    
+    "special": "TACOS ",
+  
+    "address": "1401 South Andrews Avenue Fort Lauderdale FL 33316",
+   
+    "phone": "954-990-6658",
+  
+    "website": "https://barritaftl.com/",
+
+    "day": "tuesday",
+
+    "image":"",
+
+    "name":"BARITA"
+ 
+    
+},
+
+{
+
+    "_id": 3,
+
+    "price": "$45 (Pitcher) ",
+    
+    "special": "FREE NACHOS WITH MARGARITA PITCHER *not valid during hh*",
+  
+    "address": "1401 South Andrews Avenue Fort Lauderdale FL 33316",
+   
+    "phone": "954-990-6658",
+  
+    "website": "https://barritaftl.com/",
+
+    "day": "wednesday",
+
+    "image":"",
+
+    "name":"BARITA"
+ 
+},
+
+{
+
+    "_id": 4,
+
+    "price": "Two one-pounders for $40 or a two-pounder for $50  ",
+    
+    "special": "'Twosday', Twin Lobster Special.",
+  
+    "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+   
+    "phone": "954-760-7009",
+  
+    "website": "https://www.kellyslanding.com/full.html",
+
+    "day": "tuesday",
+
+    "image":"",
+
+    "name":"KELLY'S LANDING"
+ 
+},
+
+{
+"_id": 5,
+
+"price": " $30 ",
+
+"special": "'Broiled Twin Florida Lobster Tails",
+
+"address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+
+"phone": "954-760-7009",
+
+"website": "https://www.kellyslanding.com/full.html",
+
+"day": "monday",
+
+"image":"",
+
+"name":"KELLY'S LANDING"
+
+},
+
+{
+    "_id": 6,
+    
+    "price": " Full rack $22, half rack $16 ",
+    
+    "special": "Fall-off-the-bone BBQ Baby Back Ribs ",
+    
+    "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+    
+    "phone": "954-760-7009",
+    
+    "website": "https://www.kellyslanding.com/full.html",
+    
+    "day": "sunday",
+    
+    "image":"",
+    
+    "name":"KELLY'S LANDING"
+    
+    },
+
+    {
+        "_id": 7,
+        
+        "price": " $35 (regularly $42) ",
+        
+        "special": "'1.5 lbs Snow Crab While they last! ",
+        
+        "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+        
+        "phone": "954-760-7009",
+        
+        "website": "https://www.kellyslanding.com/full.html",
+        
+        "day": "wednesday",
+        
+        "image":"",
+        
+        "name":"KELLY'S LANDING"
+        
+        },
+
+        {
+            "_id": 8,
+            
+            "price": "$16",
+            
+            "special": "Full Rack ",
+            
+            "address": "1035 SE 17th Street Ft. Lauderdale, FL 33316",
+            
+            "phone": "(954) 524-6163",
+            
+            "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+            
+            "day": "wednesday",
+            
+            "image":"",
+            
+            "name":"QUARTERDECK"
+            
+            },
+        
+            {
+                "_id": 9,
+                
+                "price": " $35 ",
+                
+                "special": "'Triple Maine Lobster Tails, While they last! ",
+                
+                "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+                
+                "phone": "954-760-7009",
+                
+                "website": "https://www.kellyslanding.com/full.html",
+                
+                "day": "thursday",
+                
+                "image":"",
+                
+                "name":"KELLY'S LANDING"
+                
+                },
+
+                {
+                    "_id": 10,
+                    
+                    "price": "$6",
+                    
+                    "special": "2 Tacos ",
+                    
+                    "address": "1035 SE 17th Street Ft. Lauderdale, FL 33316",
+                    
+                    "phone": "(954) 524-6163",
+                    
+                    "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+                    
+                    "day": "tuesday",
+                    
+                    "image":"",
+                    
+                    "name":"QUARTERDECK"
+                    
+                    },
+
+                    {
+                        "_id": 11,
+                        
+                        "price": "$8",
+                        
+                        "special": "AMSO Burger  ½ lb. (Must Purchase a Beverage) ",
+                        
+                        "address": "721 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+                        
+                        "phone": "954-715-1134",
+                        
+                        "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+                        
+                        "day": "monday",
+                        
+                        "image":"",
+                        
+                        "name":"AMERICAN SOCIAL"
+                        
+                        }
+
+
+]

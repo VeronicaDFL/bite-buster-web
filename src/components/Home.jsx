@@ -4,7 +4,7 @@ import RestaurantCard from "./RestaurantsCard.jsx";
 export default  function Home () {
     const [myRestaurants, setMyRestaurants] = useState()
     const [dayOfTheWeek, setDayOfTheWeek] = useState('monday')
-
+    const isAdmin = false
     const getMyRestaurants = () => { 
         fetch(`https://bite-buster-api.web.app/restaurants/${dayOfTheWeek}`)
         .then(response => response.json())
@@ -35,7 +35,7 @@ return (
       ?<h2>Loading ...</h2>
       : myRestaurants.map(restaurant => (
       <RestaurantCard 
-      key={restaurant.id} restaurant={restaurant}/>
+      key={restaurant._id} isAdmin={isAdmin} restaurant={restaurant}/>
           ))
         }
           
