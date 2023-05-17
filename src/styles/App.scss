@@ -1,51 +1,18 @@
-body {
-    width: 100vw;
-    height: 100vh;
-    background: white;
-    background-size: cover;
-  }
+//H1 Image logo Bite
 
-  .email {
+.image-logo {
+ width: 50px;
+ height: 50px;
+  
+}
 
-    width: 100vw;
-    height: 100vh;
-    background: white;
-    background-size: cover;
-  }
+//font BUSTER
+.title-font{
+  background-color: black;
+  font-size: 42px;
+  margin-top: 8px;
 
-  *, *:before, *:after {
-    box-sizing: border-box;
-
-  }
-
-  .emailform {
-    width: 300px;
-    border:2px;
-    padding: 70px;
-    margin: 30px ;
-    box-shadow: 3px;
-    font: 80px;
-    border: 1px solid black;
-    border-radius:  30deg;
-   
-
-  }
-
-  .input {
-    padding:10px;
-    border:0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    border-radius: 10px;
-    box-shadow: 10px;
-    width: auto;
-    
-  }
-
-  .input:hover {
-
-    background-color: rgba(105, 105, 105, 0.236);
-  }
-
+}
 
 ////Add Form
 
@@ -90,6 +57,7 @@ button, input {
   padding: $ruler;
   background-color:$color-bg;
   text-shadow: 1px 1px 0 $color-white;
+  margin: 20px;
 }
 
 label {
@@ -119,7 +87,7 @@ button {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
-  
+
   
   &:hover {
     box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
@@ -144,6 +112,7 @@ button {
     margin: 0 $ruler/2;
     font-size: $ruler*1.2;
     margin: 20px 20px;
+  
     
     .icon {
       margin-right: 0; 
@@ -162,6 +131,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: 20px;
+
   
   label {
     margin: 0;
