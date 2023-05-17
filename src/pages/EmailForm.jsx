@@ -34,12 +34,12 @@ import emailjs from 'emailjs-com';
          ) : (      
              <form className= "emailform" ref={form} onSubmit={sendEmail}>
              <label></label>
-                    <input placeholder="Name" type="text" name="user_name" />
+                    <input className="input" placeholder="Name" type="text" name="user_name" />
              <label></label>
-                    <input placeholder="Email"type="email" name="user_email" />
+                    <input  className="input" placeholder="Email"type="email" name="user_email" />
              <label></label>
-                    <textarea  placeholder="Your Message Here..." name="message" />
-                    <input type="submit" value="Send" />
+                    <textarea className="input" placeholder="Your Message Here..." name="message" />
+                    <input className='input' type="submit" value="Send" />
              </form>
              )}
            </div>

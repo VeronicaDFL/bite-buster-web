@@ -36,58 +36,68 @@ export default function Form() {
   
   return(
     <>
+      <div className="segment">
       <h2>Add Restaurant</h2>
+      </div>
+      
       <form onSubmit={handleForm}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Name"
           type="text" 
           name="name"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Info</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Info"
           type="text" 
           name="info"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Price</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Price"
           type="text" 
           name="price"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Address</label>
-        <input 
+        <label htmlFor="name"></label>
+        <input
+          placeholder="Address" 
           type="text" 
           name="address"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Phone</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Phone"
           type="text" 
           name="phone"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Website</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Website"
           type="text" 
           name="website"
           onChange={handleInputChange} />
 
         <br />
 
-        <label htmlFor="name">Day</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Day"
           type="text" 
           name="day"
           onChange={handleInputChange} />
@@ -96,8 +106,9 @@ export default function Form() {
 
       
 
-        <label htmlFor="name">Image</label>
+        <label htmlFor="name"></label>
         <input 
+          placeholder="Image"
           type="text" 
           name="image"
           onChange={handleInputChange} />
@@ -106,10 +117,12 @@ export default function Form() {
         <br />
         
         <button 
+          className="unit"
           type="submit"
           onClick={ e => handleForm(e)}>Add</button>
       
       </form>
+    
     </>
   )
 }
