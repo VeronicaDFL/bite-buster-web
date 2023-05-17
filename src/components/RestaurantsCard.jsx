@@ -1,13 +1,12 @@
 import { useNavigate } from "react-router-dom"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Image } from "react-bootstrap"
 import React from "react";
 
 
-export default function RestaurantsCard( 
-    {isAdmin, handleDelete,
-        //importing the prop from Homecrud
-        restaurant:{_id,name,price,info,address,phone,image, website,day}}) {
-    const navigate = useNavigate();
+export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,name,price,info,address,phone,image, website,day}}) {
+
+    const navigate = useNavigate()
+    const imgUri = process.env.PUBLIC_URL
 
     console.log({isAdmin})
 
@@ -23,7 +22,7 @@ export default function RestaurantsCard(
         <Container>
             <Row>
                 <Col>
-                    <img src={image} alt="" />
+                    <Image src={`${imgUri}/images/${image}`} />
                     <h2>11111{name}</h2>
                     <h3>{price}</h3>
                     <h4>{info}</h4>
@@ -33,7 +32,7 @@ export default function RestaurantsCard(
                     <p>{day}</p>
 
                      
-                    <p>🏈{isAdmin}</p>
+                
                     {/* {isAdmin && (
                     <> */}
                     <button onClick={ () => handleDelete(_id) }>Delete</button>

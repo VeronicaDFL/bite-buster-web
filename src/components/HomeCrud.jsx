@@ -1,5 +1,6 @@
 import  { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Container,Row,Col,Button} from "react-bootstrap";
 import RestaurantsCard from "./RestaurantsCard.jsx";
 import React from "react";
 
@@ -60,18 +61,24 @@ const handleDelete = async(_id) => {
 
 return (
 
-    <>
+   <Container >
+    <Row>
+      <Col className="d-flex  align-item-center">
 
     <div className="buttons">
-    <button onClick={() => setDayOfTheWeek('monday')}>Monday</button>
-    <button onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
-    <button onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
-    <button onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
-    <button onClick={() => setDayOfTheWeek('friday')}>Friday</button>
-    <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
-    <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button>
+    <Button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thursday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('friday')}>Friday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</Button>
+    <Button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</Button>
     </div>
-      
+      </Col>
+    </Row>
+    
+    <Row>
+      <Col>
     <section className="restaurants-list">
    
    
@@ -85,9 +92,10 @@ return (
           restaurant={restaurant} />
         ))    
       }      
-      </section> 
-      
-        </>
+      </section>
+        </Col>
+       </Row>
+      </Container>
 )
 }
  

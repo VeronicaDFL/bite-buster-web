@@ -20,6 +20,7 @@ return (
 
     <>
     <div className="buttons">
+      <select>
     <button onClick={() => setDayOfTheWeek('monday')}>Monday</button>
     <button onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
     <button onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
@@ -27,6 +28,7 @@ return (
     <button onClick={() => setDayOfTheWeek('friday')}>Friday</button>
     <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
     <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button>
+    </select>
     </div>
       
       <section className="restaurants-list">
@@ -35,7 +37,8 @@ return (
       ?<h2>Loading ...</h2>
       : myRestaurants.map(restaurant => (
       <RestaurantCard 
-      key={restaurant._id} isAdmin={isAdmin} restaurant={restaurant}/>
+      key={restaurant._id} 
+      isAdmin={isAdmin} restaurant={restaurant}/>
           ))
         }
           
