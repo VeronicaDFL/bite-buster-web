@@ -38,7 +38,7 @@ body, p, input, select, textarea, button {
   background-image: url("../../public/images/fork1.png");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: 0px -50px;
+  background-position: 27px -50px;
  
 }
 
@@ -75,7 +75,7 @@ footer {
 
 
 div, p {
-  color: $color-shadow;
+  color: black;
   text-shadow: 1px 1px 1px $color-white;
 }
 
@@ -163,12 +163,7 @@ button {
     }
   }
   
-  &.red {
-    display: block;
-    width: 100%;
-  
-    
-  }
+
 }
 
 .input-group {

@@ -33,13 +33,13 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
 
                      
                 
-                    {/* {isAdmin && (
-                    <> */}
+                    {isAdmin && (
+                    <>
                     <button onClick={ () => handleDelete(_id) }>Delete</button>
                     <button onClick={gotoForm}>Add</button>
                    
-                    {/* </>
-                    )} */}
+                    </>
+                    )}
                 </Col>
             </Row>
         </Container>
