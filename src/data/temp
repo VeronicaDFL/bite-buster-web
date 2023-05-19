@@ -1,0 +1,30 @@
+          
+          
+<br />
+           <Row>
+            <Col>
+              <p className="p-font">•FORT LAUDERDALE</p>
+              <p className="p-font">•POMPANO BEACH</p>
+        </Col>
+      </Row>
+
+
+      <Navbar bg="light" expand="lg">
+        <Container className="container-nav">
+          <Navbar.Brand>          
+                     
+           </Navbar.Brand>
+  
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#about/">About</NavDropdown.Item>
+                <NavDropdown.Item href="#adminlogin">
+                  Admin Login
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
+      </Container>
+    </Navbar>      

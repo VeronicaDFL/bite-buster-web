@@ -61,18 +61,18 @@ const handleDelete = async(_id) => {
 
 return (
 
-   <Container >
+   <Container className="homecrud" >
     <Row>
       <Col className="d-flex  align-item-center">
 
     <div className="buttons">
-    <Button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thursday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('friday')}>Friday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</Button>
-    <Button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</Button>
+    <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('friday')}>Friday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
+    <button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</button>
     </div>
       </Col>
     </Row>

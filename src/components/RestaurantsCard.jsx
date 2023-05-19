@@ -23,7 +23,7 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
             <Row>
                 <Col>
                     <Image src={`${imgUri}/images/${image}`} />
-                    <h2>11111{name}</h2>
+                    <h2>{name}</h2>
                     <h3>{price}</h3>
                     <h4>{info}</h4>
                     <p>{address}</p>
