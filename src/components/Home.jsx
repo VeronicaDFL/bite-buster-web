@@ -25,37 +25,31 @@ export default  function Home () {
 return (
 
     <Container className="homecrud">
-      <Row>
-      <Col className="d-flex  align-item-center">
-    <div className="buttons">
-    
-    <button onClick={() => setDayOfTheWeek('monday')}>Monday</button>
-    <button onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
-    <button onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
-    <button onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
-    <button onClick={() => setDayOfTheWeek('friday')}>Friday</button>
-    <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
-    <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button>
-  
-    </div>
-    </Col>
-    </Row>
-
-    <Row>
-      <Col>
-      <section className="restaurants-list">
-      {(!myRestaurants)
-      ?<h2>Loading ...</h2>
-      : myRestaurants.map(restaurant => (
-      <RestaurantCard 
-      key={restaurant._id} 
-      isAdmin={isAdmin}
-      restaurant={restaurant}/>
-          ))
-        }
-      </section> 
-      </Col>
+      <Row className="d-flex justify-content-center">
+        <Col sm={11}>
+          <div className="text-center">
+            <button onClick={() => setDayOfTheWeek('monday')}>Monday</button>
+            <button onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
+            <button onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
+            <button onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
+            <button onClick={() => setDayOfTheWeek('friday')}>Friday</button>
+            {/* <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
+            <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button> */}
+          </div>
+        </Col>
       </Row>
+
+      <Row className="d-flex justify-content-center">        
+        {(!myRestaurants)
+          ?<h2>Loading ...</h2>
+          : myRestaurants.map(restaurant => (
+            <RestaurantCard 
+              key={restaurant._id} 
+              isAdmin={isAdmin}
+              restaurant={restaurant}/>
+            ))
+          }        
+        </Row>
       </Container>
           
 

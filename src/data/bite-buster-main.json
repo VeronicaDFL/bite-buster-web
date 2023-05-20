@@ -1,0 +1,325 @@
+[{
+  "_id": {
+    "$oid": "6467a26727bbfc60bd9b8175"
+  },
+  "name": "TAP 42",
+  "info": "PROHIBITION BURGER (4pm-11pm)",
+  "address": "1411 South Andrews Ave Fort Lauderdale, FL 33316",
+  "phone": "954-463-4900",
+  "website": "https://tap42.com/fort-lauderdale/",
+  "day": "monday",
+  "price": "7$",
+  "image": "food-burger-tap.webp"
+},{
+  "_id": {
+    "$oid": "6467a3d327bbfc60bd9b8176"
+  },
+  "price": "$3.99 ",
+  "info": "TACOS",
+  "address": "1401 South Andrews Avenue Fort Lauderdale FL 33316",
+  "phone": "954-990-6658",
+  "website": "https://barritaftl.com/",
+  "day": "tuesday",
+  "name": "BARITA",
+  "image": "food-taco.webp"
+},{
+  "_id": {
+    "$oid": "6467a57d27bbfc60bd9b8177"
+  },
+  "name": "KELLY'S LANDING",
+  "day": "tuesday",
+  "price": "Two one-pounders for $40 or a two-pounder for $50",
+  "info": "Twosday', Twin Lobster Special",
+  "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+  "phone": "954-760-7009",
+  "website": "https://www.kellyslanding.com/full.html",
+  "image": "food-lobsters.webp"
+},{
+  "_id": {
+    "$oid": "6468e2f9cf8574caf82d5f0c"
+  },
+  "price": "Full rack $22, half rack $16",
+  "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+  "phone": "954-760-7009",
+  "website": "https://www.kellyslanding.com/full.html",
+  "day": "sunday",
+  "name": "KELLY'S LANDING",
+  "info": "Fall-off-the-bone BBQ Baby Back Ribs",
+  "image": "food-ribs.webp"
+},{
+  "_id": {
+    "$oid": "6468e540cf8574caf82d5f0d"
+  },
+  "price": "$35 (regularly $42)",
+  "info": "1.5 lbs Snow Crab While they last!",
+  "phone": "954-760-7009",
+  "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+  "website": "https://www.kellyslanding.com/full.html",
+  "day": "wednesday",
+  "name": "KELLY'S LANDING",
+  "image": "food-snowcrab.webp"
+},{
+  "_id": {
+    "$oid": "6468e658cf8574caf82d5f0e"
+  },
+  "price": "$16",
+  "info": "Full Rack",
+  "address": "1035 SE 17th Street Ft. Lauderdale, FL 33316",
+  "phone": "(954) 524-6163",
+  "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+  "name": "QUARTERDECK",
+  "day": "wednesday",
+  "image": "food-ribs.webp"
+},{
+  "_id": {
+    "$oid": "6468e7becf8574caf82d5f0f"
+  },
+  "day": "thursday",
+  "price": " $35",
+  "info": "Triple Maine Lobster Tails, While they last!",
+  "address": "1305 SE 17th Street Fort Lauderdale, FL 33316",
+  "phone": "954-760-7009",
+  "website": "https://www.kellyslanding.com/full.html",
+  "name": "KELLY'S LANDING",
+  "image": "food-tripletails.webp"
+},{
+  "_id": {
+    "$oid": "6468e850cf8574caf82d5f10"
+  },
+  "day": "tuesday",
+  "name": "QUARTERDECK",
+  "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+  "phone": "(954) 524-6163",
+  "address": "1035 SE 17th Street Ft. Lauderdale, FL 33316",
+  "price": "$6",
+  "info": "2 Tacos",
+  "image": "food-3tacos.webp"
+},{
+  "_id": {
+    "$oid": "6468e975cf8574caf82d5f11"
+  },
+  "name": "AMERICAN SOCIAL",
+  "day": "monday",
+  "website": "https://quarterdeckrestaurants.com/endless-summer-specials/",
+  "phone": "954-715-1134",
+  "address": "721 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+  "info": "AMSO Burger  ½ lb. (Must Purchase a Beverage)",
+  "price": "$8",
+  "image": "food-burger.webp"
+},{
+  "_id": {
+    "$oid": "646904d8159dfc8f27cb1eba"
+  },
+  "info": "Short rib sliders (3pm-9pm)",
+  "name": "B-SQUARE BURGERS",
+  "price": "$3.50",
+  "address": "1021 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+  "website": "https://bsquareburger.com/",
+  "day": "monday",
+  "phone": "954.999.5216 ",
+  "image": "foode-sliders.webp"
+},{
+  "_id": {
+    "$oid": "646906a4159dfc8f27cb1ebb"
+  },
+  "info": "full rack of ribs and two sides",
+  "name": "GALUPPI'S",
+  "price": "$15.99",
+  "website": "https://www.galuppis.com/",
+  "address": "1103 North Federal Highway, Pompano Beach, FL 33062",
+  "phone": "954-785-0226",
+  "day": "monday",
+  "image": "food-ribs.webp"
+},{
+  "_id": {
+    "$oid": "6469078a159dfc8f27cb1ebc"
+  },
+  "info": "10-ounce NY strip steak with Seasonal vegetables Mashed potatoes",
+  "price": "$15.99",
+  "day": "tuesday",
+  "phone": "954-785-0226",
+  "address": "1103 North Federal Highway, Pompano Beach, FL 33062",
+  "name": "GALUPPIS",
+  "website": "https://www.galuppis.com/",
+  "image": "food-nystrip.webp"
+},{
+  "_id": {
+    "$oid": "64690839159dfc8f27cb1ebd"
+  },
+  "info": "Ahi steak with two side dishes OR Ahi on top of a large Asian noodle salad",
+  "price": "$13.99",
+  "day": "wednesday",
+  "name": "GALUPPIS",
+  "phone": "954-785-0226",
+  "address": "1103 North Federal Highway, Pompano Beach, FL 33062",
+  "website": "https://www.galuppis.com/",
+  "image": "food-ahi.webp"
+},{
+  "_id": {
+    "$oid": "646908c4159dfc8f27cb1ebe"
+  },
+  "info": "bottomless Taco Thursday",
+  "name": "GALUPPIS",
+  "price": "$13.99",
+  "website": "https://www.galuppis.com/",
+  "phone": "954-785-0226",
+  "address": "1103 North Federal Highway, Pompano Beach, FL 33062",
+  "day": "thursday",
+  "image": "food-moretacos.webp"
+},{
+  "_id": {
+    "$oid": "646909a6159dfc8f27cb1ebf"
+  },
+  "info": "fried-fish : Cod ,Hush puppies ,Popcorn shrimp, French fries ,Coleslaw",
+  "name": "GALUPPIS",
+  "price": "$15.99",
+  "address": "1103 North Federal Highway, Pompano Beach, FL 33062",
+  "phone": "954-785-0226",
+  "day": "friday",
+  "website": "https://www.galuppis.com/",
+  "image": "food-mixfish.webp"
+},{
+  "_id": {
+    "$oid": "64690b47159dfc8f27cb1ec0"
+  },
+  "price": "$16.95",
+  "info": "12 oz Prime Rib with Cole Slaw and 1 side",
+  "website": "https://brendanssportspub.com/",
+  "name": "BRENDAN'S Sport Bar",
+  "address": "868 Federal Hwy, Pompano Beach, FL 33062",
+  "phone": "+19547860033",
+  "day": "monday",
+  "image": "food-primerib.webp"
+},{
+  "_id": {
+    "$oid": "64690c05159dfc8f27cb1ec1"
+  },
+  "phone": "+19547860033",
+  "name": "BRENDAN'S Sport Bar",
+  "address": "868 Federal Hwy, Pompano Beach, FL 33062",
+  "website": "http://www.brendanssportspub.com/",
+  "day": "tuesday",
+  "info": "10oz. Angus Burgers, Buy one get another one 1/2 off",
+  "price": "$13.95",
+  "image": "food-burger-tap.webp"
+},{
+  "_id": {
+    "$oid": "64690c8e159dfc8f27cb1ec2"
+  },
+  "website": "http://www.brendanssportspub.com/",
+  "name": "BRENDAN'S Sports Bar",
+  "info": "14\" pizza Buy one get one 1/2 off",
+  "price": "$14.95",
+  "address": "868 Federal Hwy, Pompano Beach, FL 33062",
+  "phone": "+19547860033",
+  "day": "wednesday",
+  "image": "food-pizza.webp"
+},{
+  "_id": {
+    "$oid": "64690d06f0e9e0a3ef861ceb"
+  },
+  "info": "Chicken or beef Tacos",
+  "price": "3 for $9",
+  "name": "BRENDA'S Sport Bar",
+  "phone": "+19547860033",
+  "address": "868 Federal Hwy, Pompano Beach, FL 33062",
+  "website": "http://www.brendanssportspub.com/",
+  "day": "thursday",
+  "image": "food-taco.webp"
+},{
+  "_id": {
+    "$oid": "64690d7af0e9e0a3ef861cec"
+  },
+  "info": "Fish & Chips",
+  "price": "$11.95",
+  "name": "BRENDAN'S Sports Bar",
+  "website": "https://www.brendanssportspub.com/menu",
+  "phone": "+19547860033",
+  "address": "868 Federal Hwy, Pompano Beach, FL 33062",
+  "day": "friday",
+  "image": "food-fishandchip.webp"
+},{
+  "_id": {
+    "$oid": "64690fed159dfc8f27cb1ec3"
+  },
+  "info": "Half Price wings with the purchase of a beverage(5PM to close )",
+  "price": "$7 for 8 wings",
+  "website": "https://www.legendstavernandgrille.com/",
+  "name": "LEGENDS Tavern and Grille",
+  "address": "10 SW 6th St, Pompano Beach, FL 33060",
+  "phone": "+19549333859",
+  "day": "tuesday",
+  "image": "food-wings.webp"
+},{
+  "_id": {
+    "$oid": "64691097159dfc8f27cb1ec4"
+  },
+  "info": "Legendary Hot Dogs with Purchase of a beverage($2 OFF all Craft Beer)",
+  "name": "LEGENDS Tavern and Grille",
+  "price": "$5.99 ",
+  "address": "10 SW 6th St, Pompano Beach, FL 33060",
+  "phone": "+19549333859",
+  "website": "https://www.legendstavernandgrille.com/",
+  "day": "thursday",
+  "image": "food-hotdog.webp"
+},{
+  "_id": {
+    "$oid": "64691223159dfc8f27cb1ec5"
+  },
+  "day": "thursday Prime Rib - 8-ounce cut of aged, Angus beef  (available after 4 pm)",
+  "info": " Prime Rib - 8-ounce Angus beef ,include potato or rice, a Caesar Salad, garlic rolls, and a FREE drink* (available after 4 pm)",
+  "price": " $18.99",
+  "name": "FLANIGAN'S",
+  "address": "2500 E Atlantic Blvd, Pompano Beach, FL 33062",
+  "phone": "954.943.3762",
+  "website": "https://www.flanigans.net/",
+  "image": "food-primerib.webp"
+},{
+  "_id": {
+    "$oid": "646913ca159dfc8f27cb1ec6"
+  },
+  "info": "1/2 OFF Oysters (Raw or NOLA)  1/2 OFF Bubbles by the glass",
+  "name": "PAPA'S Raw Bar",
+  "website": "https://papasrawbar.com/",
+  "phone": "(754) 307-5034",
+  "address": "4610 N Federal Hwy. Lighthouse Point, FL 33064",
+  "day": "thursday",
+  "price": "MP",
+  "image": "food-oysters.webp"
+},{
+  "_id": {
+    "$oid": "646914a1159dfc8f27cb1ec7"
+  },
+  "info": " All You Can Eat Spicy Mussels",
+  "price": " $19",
+  "name": "EVEN KEEL Fish Shack",
+  "address": "112 Commercial Boulevard (Southeast corner of A-1-A)  Lauderdale-by-the-Sea, FL 3330",
+  "phone": "(954) 530-6276 ",
+  "website": "https://www.evenkeelfish.com/",
+  "day": "monday",
+  "image": "food-mussels.webp"
+},{
+  "_id": {
+    "$oid": "64691523159dfc8f27cb1ec8"
+  },
+  "info": "Two Dollar Tuesdays:",
+  "price": "$2 Oysters, $2 High Life, $2 Chambongs, 2$ Narragansett",
+  "name": "EVEN KEEL Fish Shack",
+  "phone": "(954) 530-6276",
+  "address": "112 Commercial Boulevard (Southeast corner of A-1-A)  Lauderdale-by-the-Sea, FL 33308",
+  "website": "https://www.evenkeelfish.com/",
+  "day": "tuesday",
+  "image": "food-oysters.webp"
+},{
+  "_id": {
+    "$oid": "64691785159dfc8f27cb1ec9"
+  },
+  "info": "Oyster Mania",
+  "day": "monday",
+  "price": "$1.50",
+  "name": "WILD SEA Las Olas",
+  "website": "https://www.wildsealasolas.com/",
+  "address": "620 East Las Olas Boulevard Fort Lauderdale, Florida 33301",
+  "phone": " (954) 467-2555",
+  "image": "food-oysters.webp"
+}]

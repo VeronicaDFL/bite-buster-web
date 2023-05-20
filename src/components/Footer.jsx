@@ -8,11 +8,11 @@ export default function Footer () {
     return (
 
       <Navbar>
-      <Container className="footer">
+      <Container className="footer" expand="lg">
        <Row>
-        <p>Let us know if you busted a new spot</p>
         <Nav>
           <Nav.Item>
+              <p>Let us know if you busted a new spot!</p>
               <Nav.Link as={Link} to="/email">Email</Nav.Link>
           </Nav.Item>
         </Nav>

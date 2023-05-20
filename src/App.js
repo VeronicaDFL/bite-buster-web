@@ -10,8 +10,8 @@ import HomeCrud from "./components/HomeCrud.jsx";
 import Login from "./pages/Login.jsx";
 import Form from "./components/Form.jsx";
 import UpdateForm from "./components/UpdateForm.jsx";
-import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/App.scss';
 
 function App() {

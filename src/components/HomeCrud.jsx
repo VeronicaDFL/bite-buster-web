@@ -63,17 +63,16 @@ return (
 
    <Container className="homecrud" >
     <Row>
-      <Col className="d-flex  align-item-center">
-
-    <div className="buttons">
-    <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('friday')}>Friday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
-    <button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</button>
-    </div>
+      <Col sm={11}>
+        <div className="buttons">
+        <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('friday')}>Friday</button>
+        {/* <button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</button> */}
+        </div>
       </Col>
     </Row>
     

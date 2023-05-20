@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { Container, Row, Col, Image } from "react-bootstrap"
+import { Button, Col, Image } from "react-bootstrap"
 import React from "react";
 
 
@@ -14,35 +14,44 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
         navigate(`/form`)
     }
       
-    
-
 
     return(
-    <div className ="restaurant-card">
-        <Container>
-            <Row>
-                <Col>
-                    <Image src={`${imgUri}/images/${image}`} />
-                    <h2>{name}</h2>
-                    <h3>{price}</h3>
-                    <h4>{info}</h4>
-                    <p>{address}</p>
-                    <p>{phone}</p>
-                    <p>{website}</p>
-                    <p>{day}</p>
+        <>
+            <Col xs={11} md={5} lg={4} xl={6}  
+                className="mb-3 text-center text-xl-end restaurant-image">
+                <figure className="d-flex 
+                    justify-content-center
+                    justify-content-xl-end">
+                    <div>
+                    <Image 
+                        fluid
+                        className="rounded-3" 
+                        src={`${imgUri}/images/${image}`} />
+                    {isAdmin && (
+                    <>
+                        <div className="card-buttons">
+                        <button onClick={ () => handleDelete(_id) }>Delete</button>
+                        <button onClick={gotoForm}>Add</button>
+                        </div>
+                    </>
+                    )}
+                    </div>
+                </figure>
+            </Col>
+
+            <Col xs={10} md={6} lg={7} xl={6}>
+                <h2>{name}</h2>
+                <h3>{price}</h3>
+                <p>{info}</p>
+                <p>{address}</p>
+                <p>{phone}</p>
+                <p><a href={website} target="_blank" rel="noreferrer" >
+                    <Button>Launch Site</Button></a></p>
+            </Col>
+        </>
+    )
+}
+                
 
                      
                 
-                    {isAdmin && (
-                    <>
-                    <button onClick={ () => handleDelete(_id) }>Delete</button>
-                    <button onClick={gotoForm}>Add</button>
-                   
-                    </>
-                    )}
-                </Col>
-            </Row>
-        </Container>
-    </div>
-    )
-}

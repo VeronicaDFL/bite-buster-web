@@ -15,10 +15,14 @@ export default function Login() {
         <Row>
           <Col className='mx-4 p-4 rounded-3 login-container'>
             <h2>Login</h2>
-            <p class="placeholder-glow ">
-            <span class="placeholder col-10 "></span>
+            <p className="placeholder-glow ">
+            <span className="placeholder col-10 rounded-3 ">Admin login name</span>
             </p>
-            <Button onClick="">Submit</Button>
+            <h2>Password</h2>
+            <p className="placeholder-glow ">
+            <span className="placeholder col-10 rounded-3 ">Admin Password</span>
+            </p>
+            <button onClick="">Submit</button>
           </Col>
         </Row>
       </Container>
