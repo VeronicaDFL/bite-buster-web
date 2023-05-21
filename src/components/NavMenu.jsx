@@ -1,16 +1,16 @@
 
-import {Image, Row, Col} from "react-bootstrap";
+import {Image} from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavDropdown } from "react-bootstrap";
+
 
 const imgUri = process.env.PUBLIC_URL
 
 
 function NavMenu() {
   return (
-<Navbar className="bar" expand="lg" sticky="top">
+<Navbar className="bar" expand="lg" sticky="top" >
       <Container >
         <Navbar.Brand href="#home">
           <Image fluid
@@ -18,10 +18,10 @@ function NavMenu() {
               className="image-logo" />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav " />
+        <Navbar.Collapse className="rounded-3"id="basic-navbar-nav ">
           
-          <Nav className="ms-auto">
+          <Nav className="ms-auto ">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/login">Admin Login</Nav.Link>

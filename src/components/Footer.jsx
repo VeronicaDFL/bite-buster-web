@@ -1,11 +1,15 @@
-import { Link } from "react-router-dom";
-import { Navbar,Container} from "react-bootstrap";
+
+import { Container,Row} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 
 
 
 export default function Footer () {
+
+  const currentYear = new Date().getFullYear()
+
   const navigate = useNavigate()
   
   const gotoEmailForm = () => {
@@ -14,17 +18,21 @@ export default function Footer () {
 
     return (
 
-      <Navbar>
-      <Container className="footer" expand="lg" >
-              <h4>Let us know if you busted a new spot!</h4>
-              <button onClick={gotoEmailForm}>Email</button>
+      
+      <Container className="footer rounded-4" expand="lg" sticky="bottom" >
+        <Row className="container-fluid">
+           
+              <button  onClick={gotoEmailForm}>LET US KNOW IF YOU BUSTED A NEW SPOT!  <i class="bi bi-envelope-at"></i></button>
+        </Row>
 
-              {/* <footer>
-              <p>&copy;Veronica De Felice{currentYear}</p>
-              </footer> */}
+            
+        <Row>
+              <p className="text-center">&copy;Veronica De Felice {currentYear}</p>
+        </Row>
+          
 
       </Container>
-     </Navbar>  
+   
        )
    }
      
