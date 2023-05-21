@@ -46,7 +46,7 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
                 <p>{address}</p>
                 <p>{phone}</p>
                 <p><a href={website} target="_blank" rel="noreferrer" >
-                    <Button>Launch Site</Button></a></p>
+                    <button>Launch Site</button></a></p>
             </Col>
         </>
     )

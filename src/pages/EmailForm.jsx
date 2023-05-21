@@ -39,7 +39,7 @@ import emailjs from 'emailjs-com';
                     <input  className="unit" placeholder="Email"type="email" name="user_email" />
              <label></label>
                     <input className="unit" placeholder="Your Message Here..." name="message" />
-                    <input className='unit' type="submit" value="Send" />
+                    <button  type="submit" value="Send">Send</button>
              </form>
              )}
            </div>
