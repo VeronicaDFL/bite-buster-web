@@ -30,7 +30,7 @@
     </Navbar>      
 
 
-
+<!-- const maplink = "https://www.google.com/maps/place/"+ {address} 
     ? (<a href={maplink} target="_blank"><button>
       <img src={`/images/icon-google-map.png`} style={{width: "15px", height: "22px", marginRight: "5px"}} />Google Maps</button></a>) 
-  : (null)}
+  : (null)} -->
