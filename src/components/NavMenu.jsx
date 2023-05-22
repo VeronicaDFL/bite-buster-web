@@ -5,16 +5,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-const imgUri = process.env.PUBLIC_URL
-
-
 function NavMenu() {
   return (
 <Navbar className="bar" expand="lg" sticky="top" >
       <Container >
         <Navbar.Brand href="#home">
           <Image fluid
-              src={`${imgUri}/images/logo-bite-buster.webp`}
+              src={`/images/logo-bite-buster.webp`}
               className="image-logo" />
         </Navbar.Brand>
 

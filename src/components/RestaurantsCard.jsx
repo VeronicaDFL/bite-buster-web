@@ -6,7 +6,6 @@ import React from "react";
 export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,name,price,info,address,phone,image, website,day}}) {
 
     const navigate = useNavigate()
-    const imgUri = process.env.PUBLIC_URL
 
     console.log({isAdmin})
 
@@ -26,7 +25,7 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
                     <Image 
                         fluid
                         className="rounded-3" 
-                        src={`${imgUri}/images/${image}`} />
+                        src={`/images/${image}`} />
                     {isAdmin && (
                     <>
                         <div className="card-buttons">
