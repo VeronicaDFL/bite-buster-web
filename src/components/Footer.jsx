@@ -22,7 +22,7 @@ export default function Footer () {
       <Container className="footer rounded-3" expand="lg" sticky="bottom" >
         <Row className="container-fluid">
            
-              <button  onClick={gotoEmailForm}>LET US KNOW IF YOU BUSTED A NEW SPOT!  <i class="bi bi-envelope-at"></i></button>
+              <button  onClick={gotoEmailForm}>Email<i class="bi bi-envelope-at"></i></button>
         </Row>
 
             
