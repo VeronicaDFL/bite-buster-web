@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom"
-import { Button, Col, Image } from "react-bootstrap"
+import { Col, Image } from "react-bootstrap"
 import React from "react";
 
 
-export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,name,price,info,address,phone,image, website,day}}) {
+export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,name,price,info,address,phone,image, website, maplink}}) {
 
     const navigate = useNavigate()
 
@@ -12,7 +12,9 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
     const gotoForm = () => {
         navigate(`/form`)
     }
+    
       
+    
 
     return(
         <>
@@ -44,8 +46,11 @@ export default function RestaurantsCard({isAdmin, handleDelete, restaurant:{_id,
                 <p>{info}</p>
                 <p>{address}</p>
                 <p>{phone}</p>
-                <p><a href={website} target="_blank" rel="noreferrer" >
-                    <button>Go to page</button></a></p>
+                <p>{maplink 
+                    ? (<a href={maplink} target="_blank"><button>
+                        <img src={`/images/icon-google-map.png`} style={{width: "15px", height: "22px", marginRight: "5px"}} />Google Maps</button></a>) 
+                    : (null)}
+                </p>
             </Col>
         </>
     )

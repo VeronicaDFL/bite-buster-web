@@ -25,7 +25,7 @@ export default  function Home () {
 return (
 
     <Container className="homecrud">
-      <Row className="d-flex justify-content-center">
+      <Row className="d-flex justify-content-center d-none d-md-block">
         <Col sm={11}>
           <div className="text-center">
             <button onClick={() => setDayOfTheWeek('monday')}>Monday</button>
@@ -33,6 +33,20 @@ return (
             <button onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
             <button onClick={() => setDayOfTheWeek('thursday')}>Thursday</button>
             <button onClick={() => setDayOfTheWeek('friday')}>Friday</button>
+            {/* <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
+            <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button> */}
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="d-flex justify-content-center d-xs-block d-md-none" >
+        <Col sm={11}>
+          <div className="text-center">
+            <button onClick={() => setDayOfTheWeek('monday')}>Mon</button>
+            <button onClick={() => setDayOfTheWeek('tuesday')}>Tue</button>
+            <button onClick={() => setDayOfTheWeek('wednesday')}>Wed</button>
+            <button onClick={() => setDayOfTheWeek('thursday')}>Thur</button>
+            <button onClick={() => setDayOfTheWeek('friday')}>Fri</button>
             {/* <button onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
             <button onClick={() => setDayOfTheWeek('sunday')}>Sunday</button> */}
           </div>

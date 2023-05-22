@@ -72,12 +72,20 @@ body, p, input, select, textarea, button {
   display:block;
 }
 
-.footer {
-  width:100%;
+.footer-food {
+  // width:100%;
+  display: flex;
+  align-items: center;
   justify-content: center;
   background-color: #c3c4c85c;
+  // margin-left: 0px;
+  // margin-right: 0px;
 
+  
 }
+
+
+
 
 
 .footer button {

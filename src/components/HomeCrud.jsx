@@ -62,7 +62,7 @@ const handleDelete = async(_id) => {
 return (
 
    <Container className="homecrud" >
-    <Row className="d-flex justify-content-center">
+    <Row className="d-flex justify-content-center d-none d-md-block">
       <Col sm={11}>
         <div className="text-center">
         <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</button>
@@ -75,6 +75,24 @@ return (
         </div>
       </Col>
     </Row>
+
+
+    <Row className="d-flex justify-content-center d-xs-block d-md-none">
+      <Col sm={11}>
+        <div className="text-center">
+        <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Mon</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tue</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wed</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('thursday')}>Thu</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('friday')}>Fri</button>
+        {/* <button size="sm" onClick={() => setDayOfTheWeek('saturday')}>Saturday</button>
+        <button size="sm" onClick={() => setDayOfTheWeek('sunday')}>Sunday</button> */}
+        </div>
+      </Col>
+    </Row>
+
+
+
     
     <Row className="d-flex justify-content-center">
       {(!myRestaurants)

@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavMenu() {
   return (
 <Navbar className="bar" expand="lg" sticky="top" >
-      <Container >
+      <Container fluid>
         <Navbar.Brand href="#home">
           <Image fluid
               src={`/images/logo-bite-buster.webp`}
