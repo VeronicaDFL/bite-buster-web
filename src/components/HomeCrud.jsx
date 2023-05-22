@@ -62,9 +62,9 @@ const handleDelete = async(_id) => {
 return (
 
    <Container className="homecrud" >
-    <Row>
+    <Row className="d-flex justify-content-center">
       <Col sm={11}>
-        <div className="buttons">
+        <div className="text-center">
         <button  size="sm" onClick={() => setDayOfTheWeek('monday')}>Monday</button>
         <button size="sm" onClick={() => setDayOfTheWeek('tuesday')}>Tuesday</button>
         <button size="sm" onClick={() => setDayOfTheWeek('wednesday')}>Wednesday</button>
@@ -76,11 +76,7 @@ return (
       </Col>
     </Row>
     
-    <Row>
-      <Col>
-    <section className="restaurants-list">
-   
-   
+    <Row className="d-flex justify-content-center">
       {(!myRestaurants)
       ?<h2>Loading ...</h2>
       : myRestaurants.map(restaurant => (
@@ -90,14 +86,16 @@ return (
           handleDelete={handleDelete}
           restaurant={restaurant} />
         ))    
-      }      
-      </section>
-        </Col>
+      }     
        </Row>
       </Container>
 )
 }
+    
  
+   
+   
+   
       
       
 

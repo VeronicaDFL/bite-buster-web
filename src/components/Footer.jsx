@@ -19,7 +19,7 @@ export default function Footer () {
     return (
 
       
-      <Container className="footer rounded-4" expand="lg" sticky="bottom" >
+      <Container className="footer rounded-3" expand="lg" sticky="bottom" >
         <Row className="container-fluid">
            
               <button  onClick={gotoEmailForm}>LET US KNOW IF YOU BUSTED A NEW SPOT!  <i class="bi bi-envelope-at"></i></button>
